@@ -234,8 +234,8 @@ I'm a final-year **B.Tech EEE student at VIT Chennai** (CGPA 8.87), and I'm acti
 
 | Project | Stack | Highlights |
 |:--------|:------|:-----------|
-| **[DTMF Chip Physical Design]([https://github.com/Kartheesan-design](https://github.com/Kartheesan-design/DTMF-CHIP)** | Cadence Genus · Innovus · Tempus · 180nm | Full RTL-to-GDSII; 1254×1246 µm die; DRC-clean signoff; 0 setup/hold violations; **18% TNS reduction** via iterative Pre/Post-CTS & Post-Route STA |
-| **[Die2Die: 3D-IC PicoRV32 + SRAM Stack]([https://github.com/Kartheesan-design](https://github.com/Kartheesan-design/Die2Die)** | OpenROAD · Open3DFlow · HotSpot · Sky130A · Python | Face-to-Face TSV bonding; **88.8% interconnect delay reduction**; **62.5% wire-length reduction**; thermal simulation; SI analysis |
+| **[DTMF Chip Physical Design](https://github.com/Kartheesan-design/DTMF-CHIP)** | Cadence Genus · Innovus · Tempus · 180nm | Full RTL-to-GDSII; 1254×1246 µm die; DRC-clean signoff; 0 setup/hold violations; **18% TNS reduction** via iterative Pre/Post-CTS & Post-Route STA |
+| **[Die2Die: 3D-IC PicoRV32 + SRAM Stack](https://github.com/Kartheesan-design/Die2Die)** | OpenROAD · Open3DFlow · HotSpot · Sky130A · Python | Face-to-Face TSV bonding; **88.8% interconnect delay reduction**; **62.5% wire-length reduction**; thermal simulation; SI analysis |
 | **[ASIC Backend: TinyGPU SIMT](https://github.com/Kartheesan-design)** | Cadence Genus · Innovus · Tempus | High-throughput SIMT GPU; **550 MHz timing closure**; zero-slack signoff; resolved routing bottlenecks & parasitic delays in high-density datapaths |
 | **[6T–9T SRAM Cell Layout & Characterisation](https://ieeexplore.ieee.org/document/11396158)** | Cadence Virtuoso · HSPICE · MATLAB · 22nm–180nm | Common-centroid matched-pair layout; shielded bitlines; 5,000-run Monte Carlo; **3× read access improvement**; IEEE Published |
 | **[IoT Predictive Maintenance — 3-Phase Motors](https://github.com/Kartheesan-design/IoT-Motor-Predictive-Maintenance)** | ESP32 · Firebase · MATLAB · Random Forest | 99.5% classification accuracy; **40% fault detection time reduction**; <150 ms cloud latency; Int'l research collaboration |
