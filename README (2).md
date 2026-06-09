@@ -77,20 +77,7 @@ I'm a final-year **B.Tech EEE student at VIT Chennai** (CGPA 8.87), and I'm acti
 ![EM/IR](https://img.shields.io/badge/EM%2FIR%20Analysis-F44336?style=flat-square&logoColor=white)
 ![ECO](https://img.shields.io/badge/ECO%20Implementation-4CAF50?style=flat-square&logoColor=white)
 
----
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<a href="https://github.com/Kartheesan-design">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Kartheesan-design&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10"/>
-</a>
-<a href="https://github.com/Kartheesan-design">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kartheesan-design&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10"/>
-</a>
-
-</div>
 
 ---
 
@@ -115,7 +102,7 @@ I'm a final-year **B.Tech EEE student at VIT Chennai** (CGPA 8.87), and I'm acti
          │
          ▼
   ┌──────────────┐
-  │ POWER PLANNING│──→  VDD/VSS rings · M4/M5 stripes · Multi-domain PDN
+  │POWER PLANNING│──→  VDD/VSS rings · M4/M5 stripes · Multi-domain PDN
   └──────┬───────┘
          │
          ▼
@@ -130,12 +117,12 @@ I'm a final-year **B.Tech EEE student at VIT Chennai** (CGPA 8.87), and I'm acti
          │
          ▼
   ┌─────────────────┐
-  │  CLOCK TREE (CTS)│──→  Balanced tree · Skew minimisation · Clock gating
+  │ CLOCK TREE (CTS)│──→  Balanced tree · Skew minimisation · Clock gating
   └──────┬──────────┘
          │
          ▼
   ┌──────────────────┐
-  │ POST-CTS STA / OPT│──→  Hold fixing · ECO iterations · Multi-corner (SS/TT/FF)
+  │POST-CTS STA / OPT│──→  Hold fixing · ECO iterations · Multi-corner (SS/TT/FF)
   └──────┬───────────┘
          │
          ▼
@@ -167,7 +154,6 @@ I'm a final-year **B.Tech EEE student at VIT Chennai** (CGPA 8.87), and I'm acti
 
 |  | Metric | Value | Project |
 |:---:|:-------|:-----:|:--------|
-| ⚡ | Peak Timing Frequency | **550 MHz** | TinyGPU SIMT ASIC Backend |
 | 📉 | TNS Reduction (ECO) | **90%** | TCS — PicoRV32 / 32-bit ALU |
 | 📉 | TNS Reduction (STA opt) | **18%** | DTMF Chip Physical Design |
 | 🔌 | Setup / Hold Violations at Signoff | **0** | DTMF Chip · TinyGPU · PicoRV32 |
@@ -248,11 +234,11 @@ I'm a final-year **B.Tech EEE student at VIT Chennai** (CGPA 8.87), and I'm acti
 
 | Project | Stack | Highlights |
 |:--------|:------|:-----------|
-| **[DTMF Chip Physical Design](https://github.com/Kartheesan-design)** | Cadence Genus · Innovus · Tempus · 180nm | Full RTL-to-GDSII; 1254×1246 µm die; DRC-clean signoff; 0 setup/hold violations; **18% TNS reduction** via iterative Pre/Post-CTS & Post-Route STA |
-| **[Die2Die: 3D-IC PicoRV32 + SRAM Stack](https://github.com/Kartheesan-design)** | OpenROAD · Open3DFlow · HotSpot · Sky130A · Python | Face-to-Face TSV bonding; **88.8% interconnect delay reduction**; **62.5% wire-length reduction**; thermal simulation; SI analysis |
+| **[DTMF Chip Physical Design]([https://github.com/Kartheesan-design](https://github.com/Kartheesan-design/DTMF-CHIP))** | Cadence Genus · Innovus · Tempus · 180nm | Full RTL-to-GDSII; 1254×1246 µm die; DRC-clean signoff; 0 setup/hold violations; **18% TNS reduction** via iterative Pre/Post-CTS & Post-Route STA |
+| **[Die2Die: 3D-IC PicoRV32 + SRAM Stack]([https://github.com/Kartheesan-design](https://github.com/Kartheesan-design/Die2Die))** | OpenROAD · Open3DFlow · HotSpot · Sky130A · Python | Face-to-Face TSV bonding; **88.8% interconnect delay reduction**; **62.5% wire-length reduction**; thermal simulation; SI analysis |
 | **[ASIC Backend: TinyGPU SIMT](https://github.com/Kartheesan-design)** | Cadence Genus · Innovus · Tempus | High-throughput SIMT GPU; **550 MHz timing closure**; zero-slack signoff; resolved routing bottlenecks & parasitic delays in high-density datapaths |
-| **[6T–9T SRAM Cell Layout & Characterisation](https://github.com/Kartheesan-design)** | Cadence Virtuoso · HSPICE · MATLAB · 22nm–180nm | Common-centroid matched-pair layout; shielded bitlines; 5,000-run Monte Carlo; **3× read access improvement**; IEEE Published |
-| **[IoT Predictive Maintenance — 3-Phase Motors](https://github.com/Kartheesan-design)** | ESP32 · Firebase · MATLAB · Random Forest | 99.5% classification accuracy; **40% fault detection time reduction**; <150 ms cloud latency; Int'l research collaboration |
+| **[6T–9T SRAM Cell Layout & Characterisation]([https://github.com/Kartheesan-design](https://ieeexplore.ieee.org/document/11396158))** | Cadence Virtuoso · HSPICE · MATLAB · 22nm–180nm | Common-centroid matched-pair layout; shielded bitlines; 5,000-run Monte Carlo; **3× read access improvement**; IEEE Published |
+| **[IoT Predictive Maintenance — 3-Phase Motors]([https://github.com/Kartheesan-design](https://github.com/Kartheesan-design/IoT-Motor-Predictive-Maintenance))** | ESP32 · Firebase · MATLAB · Random Forest | 99.5% classification accuracy; **40% fault detection time reduction**; <150 ms cloud latency; Int'l research collaboration |
 | **[FPGA Buck–Boost Converter with FOPI Control](https://github.com/Kartheesan-design)** | Xilinx Vivado · Verilog HDL · PSCAD | Digital PWM generation; fixed-point fractional-order control; smooth buck–boost mode transition for renewable energy applications |
 
 </div>
