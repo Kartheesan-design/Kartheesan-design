@@ -2,7 +2,7 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Kartheesan%20K&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=VLSI%20Physical%20Design%20Engineer%20%7C%20ASIC%20Backend%20%7C%20RTL-to-GDSII&descAlignY=62&descSize=16)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=750&lines=Physical+Design+Engineer+%7C+Chennai;RTL-to-GDSII+%7C;Cadence+Innovus+%2B+Genus+%2B+Tempus;3D+IC+%7C+SRAM+Design+%7C+IEEE+Published;Open-Source+EDA+%7C+OpenROAD+%7C+Sky130A)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=750&lines=Physical+Design+Engineer+%7C+Chennai;RTL-to-GDSII;Cadence+Innovus+%2B+Genus+%2B+Tempus;HBM+%7C+Memristor+%7C+FinFET;3D+IC+%7C+SRAM+Design+%7C+IEEE+Published;Open-Source+EDA+%7C+OpenROAD+%7C+Sky130A)](https://git.io/typing-svg)
 
 [![Profile Views](https://komarev.com/ghpvc/?username=Kartheesan-design&label=Profile%20Views&color=70a5fd&style=flat-square)](https://github.com/Kartheesan-design)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-kartheesan--k-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/kartheesan-k)
