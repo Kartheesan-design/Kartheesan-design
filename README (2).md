@@ -15,36 +15,17 @@
 
 ## 🧑‍💻 About Me
 
-<img align="right" width="380" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
+<img align="right" width="340" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
 
-```tcl
-# Kartheesan K — Physical Design Engineer
-set name         "Kartheesan K"
-set location     "Chennai, India"
-set degree       "B.Tech EEE — VIT Chennai (2022–2026) | CGPA: 8.87"
+I didn't fall into VLSI by accident — I was drawn to the idea that software ultimately runs on **silicon that someone had to physically design**. That someone, for me, became the goal.
 
-set stack {
-  "Cadence Innovus"   "Cadence Genus"    "Cadence Tempus"
-  "Cadence Virtuoso"  "Synopsys HSPICE"  "OpenROAD"
-  "Yosys"             "Magic"            "Sky130A PDK"
-  "TCL"               "Python"           "Verilog HDL"
-}
+Starting from first-principles EE coursework, I gravitated toward the backend — the part where timing margins are won or lost by micrometres, where a single ECO iteration can be the difference between a chip that ships and one that doesn't. I've taken chips from RTL all the way through DRC-clean GDSII signoff using **Cadence Innovus, Genus, and Tempus** at TCS, closed timing at **zero WNS** on a 180nm DTMF receiver, and brought a full **3D-IC stack** to signoff using open-source EDA tools — achieving 88.8% interconnect delay reduction along the way.
 
-set currentlyLearning {
-  "Advanced STA → Timing Closure Techniques"
-  "3D-IC Design Flows → TSV & F2F Bonding"
-  "Low-Power Design → Multi-Vt & Clock Gating"
-  "Open-Source EDA → OpenROAD + Open3DFlow"
-}
+On the research side, I spent over a year deep inside SRAM stability: simulating 6T–9T bitcells across CMOS nodes, running 5,000-point Monte Carlo analyses, and publishing two IEEE papers — one of which showed a **3× read-access speedup** on a 22nm 9T cell. My curiosity now extends toward HBM architectures and Memristor–FinFET hybrids for neuromorphic applications.
 
-set funFact      "Achieved 88.8% interconnect delay reduction in a 3D-IC stack!"
-set publications 3
-set IEEE_papers  2
+I'm a final-year **B.Tech EEE student at VIT Chennai** (CGPA 8.87), and I'm actively looking for Physical Design roles where I can contribute to silicon that matters.
 
-proc motto {} {
-  return "Tapeout is not the end — it is the beginning of reliability."
-}
-```
+> *"The best designs aren't just fast — they're correct, clean, and manufacturable."*
 
 <br clear="right"/>
 
@@ -113,31 +94,91 @@ proc motto {} {
 
 ---
 
-## 🔥 Streak Stats
+## 🔁 ASIC Physical Design Flow
 
-<div align="center">
+```
+  ┌─────────────────────────────────────────────────────────────────────────────┐
+  │                    RTL-to-GDSII — Full Backend Flow                         │
+  └─────────────────────────────────────────────────────────────────────────────┘
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Kartheesan-design&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=70A5FD&fire=BF91F3&currStreakLabel=70A5FD&sideLabels=38BDAE&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10)](https://git.io/streak-stats)
-
-</div>
+  [ RTL / Verilog HDL ]
+         │
+         ▼
+  ┌─────────────┐    Cadence Genus · Yosys
+  │  SYNTHESIS  │──→  Liberty (.lib) · SDC constraints · Gate-level netlist
+  └──────┬──────┘
+         │
+         ▼
+  ┌──────────────┐   Cadence Innovus · OpenROAD
+  │ FLOORPLANNING│──→  Die area · IO placement · Macro placement · Power domains
+  └──────┬───────┘    [ DTMF: 1254×1246 µm · RAM/ROM/PLL macros ]
+         │
+         ▼
+  ┌──────────────┐
+  │ POWER PLANNING│──→  VDD/VSS rings · M4/M5 stripes · Multi-domain PDN
+  └──────┬───────┘
+         │
+         ▼
+  ┌───────────────┐
+  │   PLACEMENT   │──→  Standard cell placement · Timing-driven · Congestion-aware
+  └──────┬────────┘
+         │
+         ▼
+  ┌──────────────────┐  Cadence Tempus · OpenSTA
+  │ PRE-CTS STA / OPT│──→  Setup analysis · Hold buffering · WNS/TNS optimisation
+  └──────┬───────────┘
+         │
+         ▼
+  ┌─────────────────┐
+  │  CLOCK TREE (CTS)│──→  Balanced tree · Skew minimisation · Clock gating
+  └──────┬──────────┘
+         │
+         ▼
+  ┌──────────────────┐
+  │ POST-CTS STA / OPT│──→  Hold fixing · ECO iterations · Multi-corner (SS/TT/FF)
+  └──────┬───────────┘
+         │
+         ▼
+  ┌─────────────┐
+  │   ROUTING   │──→  Global route · Detailed route · SI-aware · DRC-clean
+  └──────┬──────┘
+         │
+         ▼
+  ┌────────────────────┐
+  │ POST-ROUTE STA / SI│──→  Parasitic extraction (SPEF) · Crosstalk · EM/IR
+  └──────┬─────────────┘
+         │
+         ▼
+  ┌──────────────┐   Magic · Netgen · Cadence PVS
+  │ DRC / LVS    │──→  Design Rule Check · Layout vs Schematic · ECO fix
+  └──────┬───────┘
+         │
+         ▼
+  ┌──────────────┐
+  │   GDSII OUT  │──→  Signoff-ready layout · Ready for foundry tapeout  ✅
+  └──────────────┘
+```
 
 ---
 
-## 📈 Activity Graph
+## 📐 Project Metrics at a Glance
 
 <div align="center">
 
-[![Kartheesan's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Kartheesan-design&theme=tokyo-night&bg_color=0d1117&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true)](https://github.com/Kartheesan-design)
-
-</div>
-
----
-
-## 🏆 Trophy Wall
-
-<div align="center">
-
-[![Trophy](https://github-profile-trophy.vercel.app/?username=Kartheesan-design&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
+|  | Metric | Value | Project |
+|:---:|:-------|:-----:|:--------|
+| ⚡ | Peak Timing Frequency | **550 MHz** | TinyGPU SIMT ASIC Backend |
+| 📉 | TNS Reduction (ECO) | **90%** | TCS — PicoRV32 / 32-bit ALU |
+| 📉 | TNS Reduction (STA opt) | **18%** | DTMF Chip Physical Design |
+| 🔌 | Setup / Hold Violations at Signoff | **0** | DTMF Chip · TinyGPU · PicoRV32 |
+| 🧱 | DRC Violations Resolved via ECO | **8 → 0** | DTMF Chip · 180nm |
+| 📦 | Die Utilisation | **52.7%** | DTMF Chip · 1254×1246 µm |
+| 🧩 | Cell Scale (PD flow) | **50 → 15,000** | TCS Internship Progression |
+| 🔗 | Interconnect Delay Reduction | **88.8%** | Die2Die 3D-IC Stack |
+| 📏 | Wire-Length Reduction | **62.5%** | Die2Die 3D-IC Stack |
+| 🧪 | Monte Carlo Iterations | **5,000 runs** | SRAM Cell Characterisation |
+| 🚀 | Read Access Improvement | **3×** | 22nm 9T SRAM (IEEE AISP'25) |
+| 🎯 | Fault Detection Accuracy | **99.5%** | IoT Predictive Maintenance |
 
 </div>
 
