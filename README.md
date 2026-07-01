@@ -23,7 +23,7 @@ Starting from first-principles EE coursework, I gravitated toward the backend �
 
 On the research side, I spent over a year deep inside SRAM stability: simulating 6T–9T bitcells across CMOS nodes, running 5,000-point Monte Carlo analyses, and publishing two IEEE papers — one of which showed a **3× read-access speedup** on a 22nm 9T cell. My curiosity now extends toward HBM architectures and Memristor–FinFET hybrids for neuromorphic applications.
 
-I'm a final-year **B.Tech EEE student at VIT Chennai** (CGPA 8.87), and I'm actively looking for Physical Design roles where I can contribute to silicon that matters.
+I'm a final-year **B.Tech EEE student at VIT Chennai** (CGPA 8.90), and I'm actively looking for Physical Design roles where I can contribute to silicon that matters.
 
 > *"The best designs aren't just fast — they're correct, clean, and manufacturable."*
 
