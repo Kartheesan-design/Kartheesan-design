@@ -157,7 +157,7 @@ I'm a final-year **B.Tech EEE student at VIT Chennai** (CGPA 8.87), and I'm acti
 | 📉 | TNS Reduction (ECO) | **90%** | TCS — PicoRV32 / 32-bit ALU |
 | 📉 | TNS Reduction (STA opt) | **18%** | DTMF Chip Physical Design |
 | 🔌 | Setup / Hold Violations at Signoff | **0** | DTMF Chip · TinyGPU · PicoRV32 |
-| 🧱 | DRC Violations Resolved via ECO | **8 → 0** | DTMF Chip · 180nm |
+| 🧱 | DRC Violations Resolved via ECO | **8 → 0** | DTMF Chip · 45nm |
 | 📦 | Die Utilisation | **52.7%** | DTMF Chip · 1254×1246 µm |
 | 🧩 | Cell Scale (PD flow) | **50 → 15,000** | TCS Internship Progression |
 | 🔗 | Interconnect Delay Reduction | **88.8%** | Die2Die 3D-IC Stack |
